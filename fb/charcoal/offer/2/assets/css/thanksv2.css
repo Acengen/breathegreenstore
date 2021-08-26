@@ -1,0 +1,442 @@
+.thank_bottom{
+	width:100%;
+	height:auto;
+	display:inline-block;
+	text-align:center;
+}
+.thank_bottom #wait {
+    margin: 30px 0 25px 0;
+    text-decoration: none;
+	border-top: 1px solid #b2b2b2;
+}
+.thank_bottom #wait p {
+    margin-bottom: 7px;
+}
+.thank_bottom .f18 {
+    font-size: 18px;
+}
+
+.thank_bottom .bl {
+    font-weight: bold;
+}
+.thank_bottom .red {
+    color: #ed145b;
+}
+.thank_bottom .f14 {
+    font-size: 14px;
+}
+.thank_bottom #upsell-btn {
+    background: url(../images/upsell_n.jpg) no-repeat;
+    width: 501px;
+    height: 242px;
+    margin: 0 auto;
+    display: block;
+    background-position: 0 0;
+    color: #043c8f;
+    position: relative;
+    left: -17px;
+}
+.thank_bottom #lock, .thank_bottom #cards {
+    margin: 10px auto;
+    display: block;
+}
+.thank_bottom #up-btn {
+    width: 312px;
+    margin: 0 auto;
+    position: relative;
+    background: #00efc5;
+    text-align: right;
+    font-family: 'Montserrat';
+    font-size: 21px;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 20px 25px 20px 35px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 0 #7b7b7b;
+    display: block;
+    text-decoration: none;
+}
+.thank_bottom #decline {
+    font-size: 12px;
+    margin: 35px auto;
+    width: 200px;
+    text-decoration: underline;
+}
+.thank_bottom .grey-2 {
+    color: #5a5a5a;
+}
+.thank_bottom #decline img {
+    vertical-align: -14%;
+}
+
+@media screen and (max-width: 767px) {
+
+.thank_bottom #upsell-btn{left:-10px;}
+}
+body {
+	margin: 0 0 0 0;
+	font-family: Arial, sans-serif;
+	background: #fff;
+	}
+	a:link, a:visited {
+	text-decoration: inherit;
+	color: inherit;
+	}
+	a.textLink:link, a.textLink:visited {
+	text-decoration: inherit;
+	color: #00F;
+	}
+	a.textLink:hover {
+	text-decoration: underline;
+	}
+	.clear {
+	clear: both;
+	}
+	#header1 {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-bottom: 5px solid #eee;
+	}
+	#inner1 {
+	width: 200px;
+	height: auto;
+	margin: 0 auto;
+	}
+	#text1 {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	color: #2e2e2e;
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: 10px;
+	}
+	#text2 {
+	width: 720px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	color: #868585;
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: 10px;
+	position: relative;
+	}
+	#text3 {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	color: #2e2e2e;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	}
+	#mainBox {
+	width: 680px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 10px;
+	background: #fff;
+	border-radius: 0;
+	padding: 5px;
+	border:0;
+	}
+	#title1 {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 4px;
+	background: #e8e8e8;
+	padding: 10px 0px;
+	}
+	#logo1 {
+	width: 18px;
+	height: auto;
+	float: left;
+	margin-left: 25px;
+	}
+	#line1 {
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 10px;
+	font-weight: bold;
+	color: #515151;
+	font-size: 18px;
+	}
+	.pullLeft {
+	float: left;
+	text-align: left;
+	}
+	.pullRight {
+	float: right;
+	text-align: right;
+	}
+	#totalText1 {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	color: #2e2e2e;
+	font-size: 14px;
+	margin-top: 10px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #ccc;
+	font-weight: 700;
+	}
+	#totalText2a {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	color: #2e2e2e;
+	font-size: 14px;
+	margin-top: 15px;
+	border-top: 1px solid #aaa;
+	padding-top: 15px;
+	}
+	#totalText2b {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	color: #2e2e2e;
+	font-size: 14px;
+	margin-top: 5px;
+	}
+	#totalText2c {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	color: #2e2e2e;
+	font-size: 14px;
+	margin-top: 5px;
+	}
+	#totalText2 {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	color: #2e2e2e;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+	#title2 {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 4px;
+	background: #e8e8e8;
+	padding: 10px 0px;
+	margin-top: 0;
+	}
+	#logo2 {
+	width: 18px;
+	height: auto;
+	float: left;
+	margin-left: 25px;
+	}
+	#line2 {
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 10px;
+	font-weight: bold;
+	color: #515151;
+	font-size: 18px;
+	}
+	#emailBlock {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 25px;
+	}
+	#mailIcon {
+	width: 100px;
+	height: auto;
+	float: left;
+	}
+	#mailText {
+	width: calc(100% - 125px);
+	height: auto;
+	float: left;
+	margin-left: 25px;
+	}
+	#mail1 {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	color: #2e2e2e;
+	font-weight: 700;
+	font-size: 24px;
+	padding-top: 10px;
+	}
+	#mail2 {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	color: #2e2e2e;
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 10px;
+	}
+	#footerText {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
+	color: #888;
+	font-size: 15px;
+	padding-bottom: 50px;
+	}
+	#tableStyles {
+	width: 93%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 10px;
+	}
+	.thank_bottom #wait p {
+	margin-bottom: 0;
+	font-size: 16px;
+	margin: 6px auto;
+	}
+	.thank_bottom #wait {
+	margin: 15px auto;
+	}
+	#wait h3 {
+	margin: 0 auto;
+	}
+	.top_right {
+	position: relative;
+	}
+	.side_arrow_up {
+	top: -10px;
+	transform: rotate(0deg);
+	transition: all 0.5s ease 0s;
+	width: 150px;
+	right: -140px;
+	height: 450px;
+	position: absolute;
+	}
+	.side_arrow_up img {
+	height: 450px;
+	}
+	div#side_arrow.side_arrow {
+	position: absolute;
+	right: -90px;
+	top: 365px;
+	transform: rotate(20deg);
+	transition: all 0.5s ease 0s;
+	width: 150px;
+	}
+	form {
+	padding: 0;
+	}
+	.thank_bottom #wait{
+	margin-top: 0;
+	padding-top: 10px;
+	}
+	.thank_bottom #up-btn{
+	text-align:center;
+	font-size:18px;
+	}
+	.kthanksItemsTable tr td:nth-child(2) {
+	text-align: right;
+	}
+	@media screen and (max-width: 900px) {
+	div#side_arrow {
+	display: none;
+	}
+	.thank_bottom #upsell-btn{
+	max-width:100%;
+	background-size:100%;
+	}
+	.thank_bottom #up-btn{
+	width:100%;
+	box-sizing:border-box;
+	}
+	body {
+	overflow-x: hidden;
+	}
+	#text2 {
+	width: 95%;
+	}
+	#mainBox {
+	width: 97%;
+	margin-top: 0px;
+	padding: 30px 0px;
+	}
+	#title1 {
+	width: 95%;
+	}
+	#line1 {
+	font-size: 15px;
+	}
+	#totalText1 {
+	font-size: 13px;
+	}
+	#totalText2 {
+	font-size: 13px;
+	}
+	#title2 {
+	width: 95%;
+	}
+	#line2 {
+	font-size: 15px;
+	}
+	#emailBlock {
+	width: 95%;
+	}
+	#mailIcon {
+	width: 70px;
+	height: auto;
+	float: left;
+	}
+	#mailText {
+	width: calc(100% - 85px);
+	margin-left: 15px;
+	}
+	#mail1 {
+	font-size: 15px;
+	padding-top: 0px;
+	}
+	#mail2 {
+	font-size: 12px;
+	}
+	#tableStyles {
+	width: 95%;
+	}
+	}
+	@media screen and (max-width: 580px){
+	#line2 {
+	font-size: 11px;
+	padding-top: 4px;
+	}
+	}
+	@media screen and (max-width: 380px){
+	.thank_bottom #upsell-btn {
+	height: 180px;
+	}
+	.thank_bottom #up-btn {
+	font-size: 14px;
+	}
+	#text1 {
+	font-size: 22px;
+	}
+	#line2 {
+	font-size: 10px;
+	}
+	#mail1 {
+	font-size: 13px;
+	}
+	}
+	#text2{border-bottom:1px solid #ccc; padding-bottom:20px;}
+	.oto{width:100%; text-align:center;}
+	.oto img{max-width:60%;}
+	

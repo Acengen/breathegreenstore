@@ -1,0 +1,316 @@
+#header1 {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-bottom: 5px solid #eee;
+	}
+	#inner1 {
+	width: 200px;
+	height: auto;
+	margin: 0 auto;
+	}
+	#mainBox {
+	width: 1050px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 22px;
+	background: #fff;
+	padding-top: 24px;
+	padding-bottom: 15px;
+	border: 1px solid #ddd;
+	}
+	#mainText1 {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Oswald', sans-serif !important;
+	font-size: 24px;
+	}
+	.breakLine {
+	width: 85%;
+	height: 2px;
+	margin: 0 auto;
+	background: #f1f4f8;
+	margin-top: 20px;
+	}
+	#innerSub {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	}
+	#innerTop {
+	width: 930px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-bottom: 25px;
+	}
+	#topText1 {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	font-size: 23px;
+	font-family: sans-serif;
+	text-decoration: underline;
+	}
+	ul#topList1 {
+	width: 100%;
+	font-size: 15px;
+	line-height: 1.25;
+	box-sizing: border-box;
+	padding-left: 0px;
+	}
+	li.topItem {
+	padding: 5px 20px 10px 40px;
+	list-style-type: none;
+	background-image: url(../images/check5.png);
+	background-repeat: no-repeat;
+	background-position: 7px 9px;
+	}
+	#innerBot {
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding-bottom: 25px;
+	}
+	#botLeft {
+	width: calc(50% - 30px);
+	width: -webkit-calc(50% - 30px);
+	width: -moz-calc(50% - 30px);
+	width: -o-calc(50% - 30px);
+	width: 46%;
+	height: auto;
+	float: left;
+	padding: 0px 15px;
+	}
+	#botRight {
+	width: calc(50% - 30px);
+	width: -webkit-calc(50% - 30px);
+	width: -moz-calc(50% - 30px);
+	width: -o-calc(50% - 30px);
+	width: 47%;
+	height: auto;
+	float: right;
+	padding: 0px 15px;
+	}
+	.botImg {
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	}
+	.botTitle {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-align:center;
+	}
+	#footerText {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
+	color: #222;
+	font-size: 15px;
+	padding-bottom: 50px;
+	}
+	input.kform_upsellBtn{
+	-webkit-appearance: none;
+	}
+	a.adjust-des {
+	position: relative;
+	top: -7px;
+	z-index: 1;
+	}
+	@media (min-width: 768px) and (max-width: 1024px){
+	#innerTop{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-bottom: 25px;
+	}
+	#topText1{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	font-size: 30px;
+	font-family: sans-serif;
+	text-decoration: underline;
+	text-align: center;
+	}
+	ul#topList1 {
+	width: 100%;
+	font-size: 24px;
+	line-height: 30px;
+	box-sizing: border-box;
+	padding-left: 0px;
+	}
+	input.kform_upsellBtn {
+	font-size: 30px!important;
+	}
+	a#no-thanks {
+	font-size: 18px;
+	}
+	}
+	@media screen and (max-width: 900px) {
+	body {
+	overflow-x: hidden;
+	}
+	form {
+	padding: 0;
+	}
+	#inner1 {
+	width: 50%;
+	}
+	#mainBox {
+	width: 96%;
+	}
+	#mainText1 {
+	font-size: 22px;
+	}
+	#breakLine {
+	width: 96%;
+	}
+	#innerMain {
+	width: 96%;
+	}
+	#innerLeft {
+	width: 95%;
+	height: auto;
+	float: none;
+	margin: 0 auto;
+	padding: 0px;
+	}
+	#innerRight {
+	width: 75%;
+	height: auto;
+	float: none;
+	margin: 0 auto;
+	padding: 0px;
+	padding-bottom: 20px;
+	}
+	.breakLine {
+	width: 80%;
+	margin-bottom: 25px;
+	}
+	#innerBot {
+	width: 96%;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	}
+	#botRight {
+	width: 90%;
+	height: auto;
+	float: none;
+	margin: 0 auto;
+	padding: 0px;
+	}
+	#botLeft {
+	width: 90%;
+	height: auto;
+	float: none;
+	margin: 0 auto;
+	padding: 0px;
+	}
+	.botImg {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 20px;
+	}
+	}
+	@media (min-width: 476px) and (max-width: 675px){
+	#innerTop {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-bottom: 25px;
+	}
+	#topText1 {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	font-size: 23px;
+	font-family: sans-serif;
+	text-decoration: underline;
+	text-align: center;
+	}
+	ul#topList1 {
+	width: 100%;
+	font-size: 15px;
+	line-height: 1.25;
+	box-sizing: border-box;
+	padding-left: 40px;
+	}
+	}
+	@media only screen and (max-width: 475px){
+	#innerTop {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-bottom: 25px;
+	text-align: center;
+	}
+	}
+	#lastLink .textLink{color: gray;}
+	@media screen and (max-width: 1100px) {
+	#botRight , #botLeft {
+	width: 45%;
+	padding: 2%;
+	float: none;
+	display: inline-block;
+	}
+	ul#topList1 {
+	font-size: 100% !important;
+	}
+	#mainBox {
+	width: 95%;
+	padding-top: 30px;
+	margin:22px auto;
+	}
+	#innerBot{width:100%;}
+	}
+	@media screen and (max-width: 1023px) {
+	#botRight , #botLeft {
+	width: 98%;
+	padding: 1%;
+	}
+	ul#topList1 {
+	font-size: 12px !important;
+	}
+	#innerTop {
+	padding-bottom: 0;
+	}
+	}
+	@media screen and (max-width: 900px) {
+	form {
+	padding: 0;
+	margin-bottom: 2em;
+	}
+	#botRight a:link, #botRight a:visited, #botLeft a:link, #botLeft a:visited  {
+	margin-bottom: 30px;
+	}
+	.botImg > img {
+	margin-top: -40px;
+	z-index: 1;
+	position: relative;
+	}
+	.botTitle {
+	position: relative;
+	z-index: 2;
+	}
+	#header1 #inner1{text-align:center;}
+	#header1 #inner1 img{max-width:100%; width:auto;}
+	}
+	

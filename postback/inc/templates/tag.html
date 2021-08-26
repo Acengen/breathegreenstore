@@ -1,0 +1,21 @@
+<script>
+  function cgAsyncInit() {
+    // INIT
+    CG('init', {
+      cart: JSON.parse('{{cart}}'),
+      order: JSON.parse('{{order}}'),
+      product: JSON.parse('{{product}}'),
+      config: JSON.parse('{{config}}'),
+    });
+  }
+
+  (function (d, s, id) {
+    if (d.getElementById(id)) return;
+    var t = d.getElementsByTagName(s)[0];
+    var cgs = d.createElement(s);
+    cgs.id = id;
+    cgs.src = 'https://t.carts.guru/bundle.js?sid={{site_id}}';
+    t.parentNode.insertBefore(cgs, t);
+    cgs.onload = cgAsyncInit;
+  }(document, 'script', 'cg-bundle'));
+</script>

@@ -1,0 +1,76 @@
+[30-Jan-2020 02:30:51 UTC] PHP Warning:  Uncaught ErrorException: require_once(geoip.inc): failed to open stream: No such file or directory in /home/breathegreenstor/public_html/inc/geoipcity.inc:65
+Stack trace:
+#0 /home/breathegreenstor/public_html/inc/geoipcity.inc(65): flight\Engine->handleError(2, 'require_once(ge...', '/home/breathegr...', 65, Array)
+#1 /home/breathegreenstor/public_html/inc/geoipcity.inc(65): require_once()
+#2 /home/breathegreenstor/public_html/views/grandma.php(24): include('/home/breathegr...')
+#3 /home/breathegreenstor/public_html/inc/flight/template/View.php(125): include('/home/breathegr...')
+#4 /home/breathegreenstor/public_html/inc/flight/Engine.php(455): flight\template\View->render('grandma', NULL)
+#5 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(200): flight\Engine->_render('grandma')
+#6 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(142): flight\core\Dispatcher::invokeMethod(Array, Array)
+#7 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(48): flight\core\Disp in /home/breathegreenstor/public_html/inc/geoipcity.inc on line 65
+[30-Jan-2020 02:30:51 UTC] PHP Fatal error:  flight\template\View::main(): Failed opening required 'geoip.inc' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/breathegreenstor/public_html/inc/geoipcity.inc on line 65
+[30-Jan-2020 02:31:05 UTC] PHP Warning:  Uncaught ErrorException: require_once(geoip.inc): failed to open stream: No such file or directory in /home/breathegreenstor/public_html/inc/geoipcity.inc:65
+Stack trace:
+#0 /home/breathegreenstor/public_html/inc/geoipcity.inc(65): flight\Engine->handleError(2, 'require_once(ge...', '/home/breathegr...', 65, Array)
+#1 /home/breathegreenstor/public_html/inc/geoipcity.inc(65): require_once()
+#2 /home/breathegreenstor/public_html/views/grandma.php(24): include('/home/breathegr...')
+#3 /home/breathegreenstor/public_html/inc/flight/template/View.php(125): include('/home/breathegr...')
+#4 /home/breathegreenstor/public_html/inc/flight/Engine.php(455): flight\template\View->render('grandma', NULL)
+#5 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(200): flight\Engine->_render('grandma')
+#6 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(142): flight\core\Dispatcher::invokeMethod(Array, Array)
+#7 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(48): flight\core\Disp in /home/breathegreenstor/public_html/inc/geoipcity.inc on line 65
+[30-Jan-2020 02:31:05 UTC] PHP Fatal error:  flight\template\View::main(): Failed opening required 'geoip.inc' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/breathegreenstor/public_html/inc/geoipcity.inc on line 65
+[30-Jan-2020 02:33:20 UTC] PHP Warning:  Uncaught ErrorException: require_once(geoip.inc): failed to open stream: No such file or directory in /home/breathegreenstor/public_html/inc/geoipcity.inc:65
+Stack trace:
+#0 /home/breathegreenstor/public_html/inc/geoipcity.inc(65): flight\Engine->handleError(2, 'require_once(ge...', '/home/breathegr...', 65, Array)
+#1 /home/breathegreenstor/public_html/inc/geoipcity.inc(65): require_once()
+#2 /home/breathegreenstor/public_html/views/grandma.php(24): include('/home/breathegr...')
+#3 /home/breathegreenstor/public_html/inc/flight/template/View.php(125): include('/home/breathegr...')
+#4 /home/breathegreenstor/public_html/inc/flight/Engine.php(455): flight\template\View->render('grandma', NULL)
+#5 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(200): flight\Engine->_render('grandma')
+#6 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(142): flight\core\Dispatcher::invokeMethod(Array, Array)
+#7 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(48): flight\core\Disp in /home/breathegreenstor/public_html/inc/geoipcity.inc on line 65
+[30-Jan-2020 02:33:20 UTC] PHP Fatal error:  flight\template\View::main(): Failed opening required 'geoip.inc' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/breathegreenstor/public_html/inc/geoipcity.inc on line 65
+[30-Jan-2020 02:35:38 UTC] PHP Warning:  Uncaught ErrorException: require_once(geoip.inc): failed to open stream: No such file or directory in /home/breathegreenstor/public_html/inc/geoipcity.inc:65
+Stack trace:
+#0 /home/breathegreenstor/public_html/inc/geoipcity.inc(65): flight\Engine->handleError(2, 'require_once(ge...', '/home/breathegr...', 65, Array)
+#1 /home/breathegreenstor/public_html/inc/geoipcity.inc(65): require_once()
+#2 /home/breathegreenstor/public_html/views/grandma.php(27): include('/home/breathegr...')
+#3 /home/breathegreenstor/public_html/inc/flight/template/View.php(125): include('/home/breathegr...')
+#4 /home/breathegreenstor/public_html/inc/flight/Engine.php(455): flight\template\View->render('grandma', NULL)
+#5 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(200): flight\Engine->_render('grandma')
+#6 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(142): flight\core\Dispatcher::invokeMethod(Array, Array)
+#7 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(48): flight\core\Disp in /home/breathegreenstor/public_html/inc/geoipcity.inc on line 65
+[30-Jan-2020 02:35:38 UTC] PHP Fatal error:  flight\template\View::main(): Failed opening required 'geoip.inc' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/breathegreenstor/public_html/inc/geoipcity.inc on line 65
+[30-Jan-2020 02:37:37 UTC] PHP Warning:  Uncaught ErrorException: require_once(geoip.inc): failed to open stream: No such file or directory in /home/breathegreenstor/public_html/inc/geoipcity.inc:65
+Stack trace:
+#0 /home/breathegreenstor/public_html/inc/geoipcity.inc(65): flight\Engine->handleError(2, 'require_once(ge...', '/home/breathegr...', 65, Array)
+#1 /home/breathegreenstor/public_html/inc/geoipcity.inc(65): require_once()
+#2 /home/breathegreenstor/public_html/index.php(157): include('/home/breathegr...')
+#3 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(165): {closure}()
+#4 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(143): flight\core\Dispatcher::callFunction(Object(Closure), Array)
+#5 /home/breathegreenstor/public_html/inc/flight/Engine.php(322): flight\core\Dispatcher::execute(Object(Closure), Array)
+#6 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(196): flight\Engine->_start()
+#7 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(142): flight\core\Dispatcher::invo in /home/breathegreenstor/public_html/inc/geoipcity.inc on line 65
+[30-Jan-2020 02:37:37 UTC] PHP Fatal error:  main(): Failed opening required 'geoip.inc' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/breathegreenstor/public_html/inc/geoipcity.inc on line 65
+[30-Jan-2020 02:38:15 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/breathegreenstor/public_html/index.php on line 163
+[30-Jan-2020 02:38:19 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/breathegreenstor/public_html/index.php on line 163
+[30-Jan-2020 02:38:21 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/breathegreenstor/public_html/index.php on line 163
+[30-Jan-2020 02:38:40 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/breathegreenstor/public_html/index.php on line 160
+[30-Jan-2020 02:38:52 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/breathegreenstor/public_html/index.php on line 119
+[30-Jan-2020 02:38:53 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/breathegreenstor/public_html/index.php on line 119
+[30-Jan-2020 02:44:11 UTC] PHP Warning:  require_once(geoip.inc): failed to open stream: No such file or directory in /home/breathegreenstor/public_html/inc/geoipcity.inc on line 65
+[30-Jan-2020 02:44:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'geoip.inc' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/breathegreenstor/public_html/inc/geoipcity.inc on line 65
+[30-Jan-2020 02:45:39 UTC] PHP Warning:  require_once(geoip.inc): failed to open stream: No such file or directory in /home/breathegreenstor/public_html/inc/geoipcity.php on line 29
+[30-Jan-2020 02:45:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'geoip.inc' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/breathegreenstor/public_html/inc/geoipcity.php on line 29
+[30-Jan-2020 03:03:58 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home/breathegreenstor/public_htmlinc/geoipregionvars.php): failed to open stream: No such file or directory in /home/breathegreenstor/public_html/index.php:123
+Stack trace:
+#0 /home/breathegreenstor/public_html/index.php(123): flight\Engine->handleError(2, 'require_once(/h...', '/home/breathegr...', 123, Array)
+#1 /home/breathegreenstor/public_html/index.php(123): require_once()
+#2 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(165): {closure}()
+#3 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(143): flight\core\Dispatcher::callFunction(Object(Closure), Array)
+#4 /home/breathegreenstor/public_html/inc/flight/Engine.php(322): flight\core\Dispatcher::execute(Object(Closure), Array)
+#5 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(196): flight\Engine->_start()
+#6 /home/breathegreenstor/public_html/inc/flight/core/Dispatcher.php(142): flight\core\Dispatcher::invokeMethod(Array, Array)
+#7 /home/breathegreenstor/public_ in /home/breathegreenstor/public_html/index.php on line 123
+[30-Jan-2020 03:03:58 UTC] PHP Fatal error:  {closure}(): Failed opening required '/home/breathegreenstor/public_htmlinc/geoipregionvars.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/breathegreenstor/public_html/index.php on line 123

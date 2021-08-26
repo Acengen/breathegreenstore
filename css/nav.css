@@ -1,0 +1,28 @@
+nav {
+  overflow: hidden;
+  position: relative;
+}
+
+nav #navlinks {
+  display: none;
+}
+
+nav a {
+  color: black !important;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+nav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}

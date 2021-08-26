@@ -1,0 +1,31 @@
+#LoadingDiv{
+  margin:0px 0px 0px 0px;
+  position:fixed;
+  height: 100%;
+  z-index:9999;
+  padding-top:350px;
+  width:100%;
+  clear:none;
+  background:rgba(217, 255, 230, 0.9);
+  text-align:center;
+  color:#000;
+  font-weight:bold;
+  font-size:20px;
+}
+/*IE will need an 'adjustment'*/
+* html #LoadingDiv{
+     position: absolute;
+     height: expression(document.body.scrollHeight &gt; document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+img.displayed {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.errormessage {
+	text-align:center;
+	padding: 5px 0;
+	font-size: 2.5em;
+	background:#000;
+	color:#FCC;
+}

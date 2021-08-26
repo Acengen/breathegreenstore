@@ -1,0 +1,3 @@
+[11-Feb-2020 18:02:46 UTC] PHP Warning:  fputcsv() expects parameter 2 to be array, string given in /home/breathegreenstor/public_html/postback/cartsguru_prospect.php on line 10
+[11-Feb-2020 18:06:20 UTC] PHP Warning:  fputcsv() expects parameter 2 to be array, string given in /home/breathegreenstor/public_html/postback/cartsguru_prospect.php on line 10
+[11-Feb-2020 18:06:39 UTC] PHP Warning:  fputcsv() expects parameter 2 to be array, string given in /home/breathegreenstor/public_html/postback/cartsguru_prospect.php on line 10
